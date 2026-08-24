@@ -1,110 +1,110 @@
 {
-  "section_label": "Bespoke Offering Menu",
-  "headline": "Curated Journeys",
+  "section_label": "Индивидуальное меню предложений",
+  "headline": "Подобранные путешествия",
   "currency_default": "USD",
   "tours": [
     {
       "id": "1week-group",
-      "category": "Curated Group",
+      "category": "Подобранная группа",
       "category_color": "sage",
-      "title": "1-Week Cultural Group Expedition",
-      "duration": "7 Days / 6 Nights",
-      "description": "An intensive, high-yield introduction to India's sacred language geography and hidden heritage sanctuaries alongside like-minded intellectual travelers.",
+      "title": "Неделя культурной групповой экспедиции",
+      "duration": "7 дней / 6 ночей",
+      "description": "Интенсивное введение в священную языковую географию Индии и скрытые святилища наследия с единомышленниками.",
       "details": [
         {
-          "label": "Group Size",
-          "value": "Max 8 Guests"
+          "label": "Размер группы",
+          "value": "Максимум 8 гостей"
         },
         {
-          "label": "Instruction",
-          "value": "Daily Semantics Briefings"
+          "label": "Обучение",
+          "value": "Ежедневные лингвистические брифинги"
         },
         {
-          "label": "Accommodations",
-          "value": "Bespoke Heritage Estates"
+          "label": "Размещение",
+          "value": "Индивидуальные исторические поместья"
         }
       ],
       "price_usd": "3,400",
       "price_eur": "3,150",
-      "price_note": "/ per guest",
-      "button_text": "Inquire Now",
+      "price_note": "/ за гостя",
+      "button_text": "Запросить информацию",
       "button_action": "openBookingModal('1-Week Group Expedition')",
       "featured": false
     },
     {
       "id": "2week-group",
-      "category": "Curated Group",
+      "category": "Подобранная группа",
       "category_color": "sage",
-      "title": "2-Week Complete Cultural Odyssey",
-      "duration": "14 Days / 13 Nights",
-      "description": "The definitive deep-dive pilgrimage. Traverse northern mountain sanctuaries and southern temple complexes with comprehensive linguistic lectures.",
+      "title": "Две недели полной культурной одиссеи",
+      "duration": "14 дней / 13 ночей",
+      "description": "Окончательное глубокое паломничество. Пересекайте северные горные святилища и южные храмовые комплексы с комплексными лингвистическими лекциями.",
       "details": [
         {
-          "label": "Group Size",
-          "value": "Max 8 Guests"
+          "label": "Размер группы",
+          "value": "Максимум 8 гостей"
         },
         {
-          "label": "Access",
-          "value": "Private Sanctuary Entrances"
+          "label": "Доступ",
+          "value": "Приватные входы в святилища"
         },
         {
-          "label": "Transfers",
-          "value": "All Internal Flights & Logistics"
+          "label": "Трансферы",
+          "value": "Все внутренние авиарейсы и логистика включены"
         }
       ],
       "price_usd": "5,900",
       "price_eur": "5,450",
-      "price_note": "/ per guest",
-      "button_text": "Inquire Now",
+      "price_note": "/ за гостя",
+      "button_text": "Запросить информацию",
       "button_action": "openBookingModal('2-Week Complete Odyssey')",
       "featured": true,
-      "featured_label": "Recommended Immersion"
+      "featured_label": "Рекомендуемое погружение"
     },
     {
       "id": "1week-personal",
-      "category": "Personal Private",
+      "category": "Личное приватное путешествие",
       "category_color": "emerald",
-      "title": "1-Week Bespoke Personal Tour",
-      "duration": "7 Days / Flexible",
-      "description": "Exclusive 1-on-1 or private couple accompaniment with Svagato. Itinerary sculpted specifically around your intellectual, research, or personal interests.",
+      "title": "Неделя индивидуального приватного тура",
+      "duration": "7 дней / гибкий график",
+      "description": "Эксклюзивное сопровождение 1-на-1 или приватной пары со Свагато. Маршрут формируется на основе ваших интеллектуальных, исследовательских или личных интересов.",
       "details": [
         {
-          "label": "Exclusivity",
-          "value": "100% Private to You"
+          "label": "Эксклюзивность",
+          "value": "100% приватно для вас"
         },
         {
-          "label": "Flexibility",
-          "value": "Dynamic Daily Pace"
+          "label": "Гибкость",
+          "value": "Динамичный ежедневный темп"
         }
       ],
       "price_usd": "7,200",
       "price_eur": "6,650",
-      "price_note": "/ private party",
-      "button_text": "Request Private Dates",
+      "price_note": "/ приватная группа",
+      "button_text": "Запросить приватные даты",
       "button_action": "openBookingModal('1-Week Bespoke Personal Tour')",
       "featured": false
     },
     {
       "id": "2week-personal",
-      "category": "Personal Private",
+      "category": "Личное приватное путешествие",
       "category_color": "emerald",
-      "title": "2-Week Master Personal Journey",
-      "duration": "14 Days / Ultimate",
-      "description": "The ultimate private journey across India's most extraordinary hidden spiritual centers, accompanied by private scholars and personalized teachings.",
+      "title": "Две недели мастер-путешествия приватно",
+      "duration": "14 дней / премиум",
+      "description": "Окончательное приватное путешествие по самым необычным скрытым духовным центрам Индии в сопровождении приватных учёных и персонализированного обучения.",
       "details": [
         {
-          "label": "Exclusivity",
-          "value": "100% Private Party"
+          "label": "Эксклюзивность",
+          "value": "100% приватная группа"
         },
         {
-          "label": "VVIP Access",
-          "value": "Private Lineage Elders & Temples"
+          "label": "VIP-доступ",
+          "value": "Приватные старейшины традиций и храмы"
         }
       ],
       "price_usd": "12,800",
       "price_eur": "11,800",
-      "price_note": "/ private party",
-      "button_text": "Request Private Dates",
+      "price_note": "/ приватная группа",
+      "button_text": "Запросить приватные даты",
       "button_action": "openBookingModal('2-Week Master Personal Journey')",
       "featured": false
     }

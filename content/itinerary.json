@@ -1,42 +1,42 @@
 {
-  "section_label": "Curated Day-by-Day Arc",
-  "headline": "What A Day Looks Like",
-  "intro": "Explore the rhythm of our contextual journeys, balancing deep intellectual study, quiet contemplation, and local culinary traditions.",
+  "section_label": "Подобранный дневной график",
+  "headline": "Как выглядит день",
+  "intro": "Изучите ритм наших путешествий, балансируя глубокое интеллектуальное изучение, спокойное созерцание и местные кулинарные традиции.",
   "phases": [
     {
       "id": 1,
       "number": "01",
-      "tab_title": "Morning: Phonetic Decoding",
-      "time": "08:30 AM - 11:30 AM",
-      "title": "Linguistic & Semantic Morning Salon",
-      "description": "Over organic local tea, Svagato leads an introductory seminar decoding the root meanings of the region's ancient inscriptions. Rather than memorizing dates, you learn how language shapes human perception and spiritual worldview.",
+      "tab_title": "Утро: Фонетическое расшифровывание",
+      "time": "08:30 - 11:30",
+      "title": "Лингвистический утренний салон",
+      "description": "За органическим местным чаем Свагато ведёт семинар по расшифровке корневых значений древних надписей региона. Вместо заучивания дат вы узнаёте, как язык формирует человеческое восприятие и духовное мировоззрение.",
       "meta": [
-        "Small-Group Dialogue",
-        "Heritage Estate Garden"
+        "Диалог в малых группах",
+        "Сад исторического поместья"
       ]
     },
     {
       "id": 2,
       "number": "02",
-      "tab_title": "Midday: Private Temple Entry",
-      "time": "12:30 PM - 04:00 PM",
-      "title": "Unseen Sanctuary & Architectural Analysis",
-      "description": "Private access to non-commercial sacred sites. Observe architectural alignments designed around acoustic resonance and sacred geometry. Svagato points out subtle details that typical guidebooks overlook.",
+      "tab_title": "День: Приватный вход в храм",
+      "time": "12:30 - 16:00",
+      "title": "Скрытое святилище и анализ архитектуры",
+      "description": "Приватный доступ к некоммерческим священным местам. Наблюдайте архитектурные выравнивания, спроектированные вокруг акустического резонанса и священной геометрии. Свагато указывает на тонкие детали, которые типичные справочники упускают.",
       "meta": [
-        "Private Gate Entry",
-        "Sacred Valley Ruins"
+        "Приватный вход",
+        "Развалины священной долины"
       ]
     },
     {
       "id": 3,
       "number": "03",
-      "tab_title": "Evening: Sound & Reflection",
-      "time": "06:00 PM - 09:00 PM",
-      "title": "Twilight Chanting & Integration Dinner",
-      "description": "Experience authentic acoustic chanting sessions at sunset, followed by a quiet culinary dinner featuring regional organic cuisine. Conclude the evening with an open Q&A on philosophy and personal insights.",
+      "tab_title": "Вечер: Звук и размышление",
+      "time": "18:00 - 21:00",
+      "title": "Сумеречное пение и интеграционный ужин",
+      "description": "Испытайте подлинные сеансы акустического пения на закате, за которыми следует тихий кулинарный ужин с региональной органической кухней. Завершите вечер открытой дискуссией о философии и личных озарениях.",
       "meta": [
-        "Sunset Chanting",
-        "Curated Organic Feast"
+        "Пение на закате",
+        "Подобранный органический пир"
       ]
     }
   ]

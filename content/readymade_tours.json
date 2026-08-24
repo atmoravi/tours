@@ -1,0 +1,65 @@
+{
+  "section_label": "Ready Made Tours Menu",
+  "headline": "Ready Made Programs",
+  "currency_default": "USD",
+  "tours": [
+    {
+      "id": "delhi-mumbai-10days",
+      "category": "Ready Made Program",
+      "category_color": "sage",
+      "title": "The Imperial Corridor: Delhi to Mumbai",
+      "duration": "10 Days / 9 Nights",
+      "description": "A majestic journey tracing India's royal trade highways, medieval fortresses, and architectural marvels. Experience Sanskritic and royal heritage with direct guiding by Svagato.",
+      "stops": "Delhi • Agra • Jaipur • Udaipur • Ahmedabad • Mumbai",
+      "lodging": "Bespoke Heritage Havelis & Royal Mewar Palaces",
+      "price_usd": "4,800",
+      "price_eur": "4,450",
+      "price_note": "/ per guest",
+      "button_text": "Read Program",
+      "button_link": "tours/delhi-mumbai-10-days.html",
+      "details": [
+        {
+          "label": "Stops & Places",
+          "value": "6 Core Cultural Nodes"
+        },
+        {
+          "label": "Lodging",
+          "value": "Heritage Palaces & Havelis"
+        },
+        {
+          "label": "Accompanying Guide",
+          "value": "Linguist Svagato"
+        }
+      ]
+    },
+    {
+      "id": "mumbai-dharamsala-tiruvannamalai-khajuraho",
+      "category": "Ready Made Program",
+      "category_color": "emerald",
+      "title": "The Great Indian Dialectic: Mountain, Cave, Temple & Cosmos",
+      "duration": "14 Days / 13 Nights",
+      "description": "A trans-continental spiritual traverse of India, tracing Himalayan Buddhist semantics, southern Advaita Vedanta silence, and central Indian Tantric architecture.",
+      "stops": "Mumbai • Dharamshala • Tiruvannamalai • Khajuraho",
+      "lodging": "Himalayan Resorts, Forest Ashrams & Royal Estates",
+      "price_usd": "8,900",
+      "price_eur": "8,250",
+      "price_note": "/ per guest",
+      "button_text": "Read Program",
+      "button_link": "tours/mumbai-dharamsala-tiruvannamalai-khajuraho.html",
+      "details": [
+        {
+          "label": "Stops & Places",
+          "value": "Mountain Heights to Southern Caves"
+        },
+        {
+          "label": "Lodging",
+          "value": "Forest Ashrams & VVIP Estates"
+        },
+        {
+          "label": "Internal Flights",
+          "value": "All Transfers Included"
+        }
+      ]
+    }
+  ]
+}

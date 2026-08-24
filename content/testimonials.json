@@ -1,24 +1,24 @@
 {
-  "section_label": "Guest Reflections",
-  "headline": "Voices From The Journey",
+  "section_label": "Отзывы гостей",
+  "headline": "Голоса из путешествия",
   "testimonials": [
     {
       "rating": 5,
-      "quote": "Traveling with Svagato is like having a key to doors you didn't even know existed. You don't just see India—you feel its ancient intellectual pulse in every syllable and stone.",
-      "name": "Elena R.",
-      "title": "Cultural Researcher, Geneva"
+      "quote": "Путешествие со Свагато — это как иметь ключ к дверям, о которых вы даже не знали. Вы не просто видите Индию — вы чувствуете её древний интеллектуальный пульс в каждом слоге и камне.",
+      "name": "Елена Р.",
+      "title": "Культурный исследователь, Женева"
     },
     {
       "rating": 5,
-      "quote": "The 2-week personal tour exceeded every expectation. Decoding Sanskrit root words while standing inside thousand-year-old stone halls was a transcendent experience.",
-      "name": "Marcus & Clara V.",
-      "title": "Private Expedition Guests, Vienna"
+      "quote": "Двухнедельное приватное путешествие превзошло все ожидания. Расшифровка санскритских корней слов, стоя внутри тысячелетних каменных залов, была трансцендентным опытом.",
+      "name": "Маркус и Клара В.",
+      "title": "Приватные гости экспедиции, Вена"
     },
     {
       "rating": 5,
-      "quote": "The pre-call with the Bishkek desk answered every question about health, safety, and cultural pacing. Flawless organization from beginning to end.",
-      "name": "Dr. Aris Thorne",
-      "title": "Linguistics Scholar, London"
+      "quote": "Предварительный звонок с Бишкекским офисом ответил на все вопросы о здоровье, безопасности и культурном темпе. Безупречная организация от начала до конца.",
+      "name": "Др. Арис Торн",
+      "title": "Ученый-лингвист, Лондон"
     }
   ]
 }

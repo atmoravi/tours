@@ -1,30 +1,30 @@
 {
-  "section_label": "Headquarters & Advisory Desk",
-  "headline": "Bishkek Advisory Operations",
-  "intro": "Our central planning and traveler relations desk is located in Bishkek. Prior to reserving your journey, we host a 20-minute direct call to align your physical comfort, travel dates, and intellectual aspirations.",
+  "section_label": "Штаб-квартира и консультационный стол",
+  "headline": "Бишкекские операции консультирования",
+  "intro": "Наш центральный стол по планированию и отношениям с путешественниками находится в Бишкеке. До бронирования путешествия мы проводим 20-минутный прямой звонок для выравнивания вашего физического комфорта, дат путешествия и интеллектуальных устремлений.",
   "details": [
     {
       "icon": "clock",
-      "title": "Working Hours",
-      "value": "09:00 – 18:00 (Bishkek Time)",
-      "note": "Monday through Saturday"
+      "title": "Рабочие часы",
+      "value": "09:00 – 18:00 (время Бишкека)",
+      "note": "Понедельник - суббота"
     },
     {
       "icon": "phone-call",
-      "title": "Direct Voice Advisory",
-      "value": "Bishkek Desk Line",
-      "note": "Scheduled via slot request form"
+      "title": "Прямое консультирование по голосу",
+      "value": "Линия Бишкекского офиса",
+      "note": "Планируется через форму запроса"
     }
   ],
   "cta": {
-    "text": "Request Bishkek Call Slot",
+    "text": "Запросить слот звонка Бишкека",
     "action": "openBookingModal('Bishkek Operations Desk')"
   },
   "status_panel": {
-    "title": "Call Desk Status",
-    "description": "Svagato or a senior cultural specialist is available during Bishkek office hours to answer your questions.",
+    "title": "Статус стола консультаций",
+    "description": "Свагато или старший культурный специалист доступны в рабочие часы Бишкека для ответа на ваши вопросы.",
     "hours": "09:00 - 18:00",
-    "status": "Desk Open",
-    "note": "Pre-registration required for all voice calls."
+    "status": "Стол открыт",
+    "note": "Предварительная регистрация требуется для всех голосовых звонков."
   }
 }

@@ -1,31 +1,31 @@
 {
-  "badge": "Elevated & Exotic Encounters",
-  "headline": "We show the India you never dreamed about.",
-  "subheading": "Step beyond conventional tourism into an immersive narrative of ancient wisdom, language science, and spiritual transcendence curated by author and linguist Svagato.",
+  "badge": "Возвышенные и экзотические встречи",
+  "headline": "Мы показываем вам Индию, о которой вы никогда не мечтали.",
+  "subheading": "Выйдите за рамки обычного туризма в погружение в повествование древней мудрости, лингвистики и духовного возвышения, подготовленное автором и лингвистом Свагато.",
   "cta_primary": {
-    "text": "Explore Bespoke Itineraries",
+    "text": "Исследуйте индивидуальные маршруты",
     "href": "#tours"
   },
   "cta_secondary": {
-    "text": "Consultation from Bishkek Hub",
+    "text": "Консультация из офиса Бишкека",
     "action": "openBookingModal('Hero Banner Consultation')"
   },
   "value_highlights": [
     {
-      "title": "Deep Context",
-      "description": "Linguistic & Historical Roots"
+      "title": "Глубокий контекст",
+      "description": "Лингвистические и исторические корни"
     },
     {
-      "title": "Curated Groups",
-      "description": "Max 8 Guests or Private Couple"
+      "title": "Подобранные группы",
+      "description": "Максимум 8 гостей или приватная пара"
     },
     {
-      "title": "Sacred Spaces",
-      "description": "Hidden Sanctuaries & Lineages"
+      "title": "Священные места",
+      "description": "Скрытые святилища и традиции"
     },
     {
-      "title": "Bishkek Hub",
-      "description": "Direct Advisory 09:00–18:00"
+      "title": "Офис Бишкека",
+      "description": "Прямое консультирование 09:00–18:00"
     }
   ]
 }

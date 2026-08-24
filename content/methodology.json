@@ -1,26 +1,26 @@
 {
-  "section_label": "Our Signature Treatment Method",
-  "headline": "Contextual Cultural Immersion",
-  "intro": "Our methodology replaces superficial sightseeing with an intellectually rich, emotionally resonant, and spiritually grounding journey of discovery.",
+  "section_label": "Наша фирменная методология",
+  "headline": "Контекстное культурное погружение",
+  "intro": "Наша методология заменяет поверхностный туризм на интеллектуально богатое, эмоционально резонансное и духовно заземляющее путешествие открытия.",
   "benefits": [
     {
       "number": "01",
       "icon": "globe-2",
-      "title": "Widest Cultural Context",
-      "description": "Instead of viewing monuments as isolated tourist stops, every sanctuary, valley, and ritual is framed within its multi-millennial historical, sociological, and linguistic origins. You gain a coherent understanding of India's living heritage.",
+      "title": "Самый широкий культурный контекст",
+      "description": "Вместо просмотра памятников как изолированных туристических остановок, каждое святилище, долина и ритуал помещаются в контекст их тысячелетней исторической, социологической и лингвистической истории. Вы получаете целостное понимание живого наследия Индии.",
       "details": [
-        "Decoding architectural geometry through ancient Sanskrit texts",
-        "Contextualizing regional rituals with Vedic & Tantric lineages"
+        "Расшифровка архитектурной геометрии через древние санскритские тексты",
+        "Контекстуализация региональных ритуалов с ведической и тантрической традициями"
       ]
     },
     {
       "number": "02",
       "icon": "sparkles",
-      "title": "Spiritual Meaning & Awakening",
-      "description": "Transcend commercialized spiritual tourism. Engage in genuine dialogues with lineage guardians, experience quiet evening sound meditations, and take time for personal integration tailored for modern intellectual seekers.",
+      "title": "Духовное значение и пробуждение",
+      "description": "Выйдите за рамки коммерциализированного духовного туризма. Ведите подлинные диалоги с хранителями традиций, испытайте тихие вечерние медитации звука и найдите время для личной интеграции, специально подобранной для современных интеллектуальных искателей.",
       "details": [
-        "Private dialogues with traditional scholars and ashram elders",
-        "Guided contemplative reflections & quiet integration hours"
+        "Частные диалоги с традиционными учеными и старейшинами ашрамов",
+        "Направляемые созерцательные размышления и спокойные часы интеграции"
       ]
     }
   ]
