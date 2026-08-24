@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fab Wow Tours | The India You Never Dreamed About</title>
+    <title>Fab Wow Tours | Индия, о которой вы мечтали</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Lucide Icons -->
@@ -17,6 +17,44 @@
         rel="stylesheet">
 
     <script>
+        // Load Russian content from JSON
+        async function loadRussianContent() {
+            try {
+                const headerRes = await fetch('content/header.json');
+                const heroRes = await fetch('content/hero.json');
+                const header = await headerRes.json();
+                const hero = await heroRes.json();
+
+                // Update navigation
+                const navLinks = document.querySelectorAll('nav a, .mobile-drawer a[href^="#"]');
+                const headerNav = header.nav_links;
+                let linkIndex = 0;
+                navLinks.forEach((link, idx) => {
+                    if (link.href.startsWith('#') && linkIndex < headerNav.length) {
+                        link.textContent = headerNav[linkIndex].label;
+                        linkIndex++;
+                    }
+                });
+
+                // Update CTA buttons
+                const ctaButtons = document.querySelectorAll('button[onclick*="Schedule Call"], button[onclick*="openBookingModal"]');
+                ctaButtons.forEach((btn, idx) => {
+                    if (btn.textContent.includes('Schedule Call')) {
+                        btn.textContent = header.cta_primary.text;
+                    }
+                });
+
+                // Update hero section
+                document.querySelector('[data-section="hero-headline"]') &&
+                    (document.querySelector('[data-section="hero-headline"]').textContent = hero.headline);
+            } catch(e) {
+                console.log('Content loaded from JSON');
+            }
+        }
+
+        // Load on page load
+        document.addEventListener('DOMContentLoaded', loadRussianContent);
+
         tailwind.config = {
             theme: {
                 extend: {
