@@ -1,0 +1,33 @@
+/* Skin: Indian Heritage (Jewel Tones) */
+:root {
+  --bg-primary: #0B1929;
+  --bg-secondary: #1A2F4A;
+  --bg-tertiary: #142640;
+  --bg-quaternary: #050F1A;
+
+  --text-primary: #F5E6D3;
+  --text-secondary: #E8D9C4;
+  --text-tertiary: #D4C4B0;
+  --text-muted: #B8A896;
+
+  --accent-primary: #D4AF37;
+  --accent-secondary: #C9A961;
+  --accent-tertiary: #8B3A3A;
+  --accent-light: #E8D9C4;
+  --accent-glow: rgba(212, 175, 55, 0.15);
+
+  --emerald-primary: #2D5A4F;
+  --emerald-secondary: #1F3A33;
+
+  --glass-bg: rgba(26, 47, 74, 0.7);
+  --glass-bg-hover: rgba(26, 47, 74, 0.9);
+  --glass-border: rgba(212, 175, 55, 0.25);
+  --glass-border-accent: rgba(212, 175, 55, 0.4);
+
+  --border-primary: #8B7355;
+  --border-secondary: #4A3A2A;
+  --border-accent: rgba(212, 175, 55, 0.4);
+
+  --pattern-opacity: 0.08;
+  --pattern-url: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><defs><pattern id="geom" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M0,0 L20,10 L40,0 M0,20 L20,30 L40,20 M0,40 L20,50 L40,40" stroke="%23D4AF37" stroke-width="1" fill="none" opacity="0.3"/></pattern></defs><rect width="100" height="100" fill="url(%23geom)"/></svg>');
+}
