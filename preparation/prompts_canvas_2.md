@@ -1,0 +1,1 @@
+Combine all final copy, Tailwind CSS links, Google Fonts, and section layouts into a single, self-contained index.html file.

@@ -47,8 +47,8 @@ Two fully self-contained detail pages live in `tours/` subfolder:
 
 | Tour | File |
 |------|------|
-| The Imperial Corridor: Delhi to Mumbai (10 Days) | `tours/delhi-mumbai-10-days.html` |
-| The Great Indian Dialectic: Mountain, Cave, Temple & Cosmos (14 Days) | `tours/mumbai-dharamsala-tiruvannamalai-khajuraho.html` |
+| The Imperial Corridor: Delhi to Mumbai (10 Days) | `programs/delhi-mumbai-10-days.html` |
+| The Great Indian Dialectic: Mountain, Cave, Temple & Cosmos (14 Days) | `programs/mumbai-dharamsala-tiruvannamalai-khajuraho.html` |
 
 Each subpage contains:
 - A full day-by-day timeline with lodging and meals per day
