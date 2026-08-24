@@ -668,78 +668,94 @@
             <!-- Ready Made Cards Grid -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <!-- Tour 1 Card -->
-                <div class="glass-panel rounded-3xl p-8 border border-slate-700/60 flex flex-col justify-between glass-panel-hover">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <span class="px-3 py-1 rounded-full text-[10px] font-semibold uppercase tracking-widest bg-sage-500/10 text-sage-light border border-sage-500/20">Ready-Made Expedition</span>
-                            <span class="text-xs text-slate-400 font-mono">10 Days / 9 Nights</span>
-                        </div>
-                        <h3 class="font-serif text-2xl text-white mb-3">The Imperial Corridor: Delhi to Mumbai</h3>
-                        <p class="text-slate-300 text-sm font-light mb-6">
-                            A majestic journey tracing India's royal trade highways, medieval fortresses, and architectural marvels. Experience Sanskritic and royal heritage with direct guiding by Svagato.
-                        </p>
-                        <div class="space-y-3 pt-4 border-t border-slate-800 text-xs text-slate-300 mb-8">
-                            <div class="flex flex-col gap-1 pb-1">
-                                <span class="text-slate-400 uppercase tracking-wider text-[10px]">Stops & Places:</span>
-                                <span class="text-white font-medium text-sm font-serif">Delhi • Agra • Jaipur • Udaipur • Ahmedabad • Mumbai</span>
-                            </div>
-                            <div class="flex items-center justify-between">
-                                <span class="text-slate-400">Lodging Style:</span>
-                                <span class="text-white font-medium">Bespoke Havelis & Mewar Palaces</span>
-                            </div>
-                            <div class="flex items-center justify-between">
-                                <span class="text-slate-400">Pacing:</span>
-                                <span class="text-white font-medium">Active, Rich Cultural Focus</span>
-                            </div>
+                <div class="glass-panel rounded-3xl border border-slate-700/60 flex flex-col justify-between glass-panel-hover overflow-hidden">
+                    <!-- Photo banner -->
+                    <div class="relative h-52 overflow-hidden">
+                        <img src="assets/images/tour-delhi-mumbai.jpg" alt="Taj Mahal at blue hour — Delhi to Mumbai" class="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-slate-900/20 to-slate-900/90"></div>
+                        <div class="absolute bottom-4 left-5 flex items-center gap-2">
+                            <span class="px-3 py-1 rounded-full text-[10px] font-semibold uppercase tracking-widest bg-sage-500/20 text-sage-light border border-sage-500/30 backdrop-blur-sm">Ready-Made Expedition</span>
+                            <span class="text-xs text-slate-300 font-mono backdrop-blur-sm bg-slate-900/50 px-2 py-0.5 rounded-full">10 Days / 9 Nights</span>
                         </div>
                     </div>
-                    <div class="flex items-center justify-between pt-6 border-t border-slate-800">
+                    <!-- Card content -->
+                    <div class="p-8 flex flex-col flex-1 justify-between">
                         <div>
-                            <span class="text-3xl font-serif text-white font-semibold price-val" data-usd="4,800" data-eur="4,450">$4,800</span>
-                            <span class="text-[11px] text-slate-400 block">/ per guest</span>
+                            <h3 class="font-serif text-2xl text-white mb-3">The Imperial Corridor: Delhi to Mumbai</h3>
+                            <p class="text-slate-300 text-sm font-light mb-6">
+                                A majestic journey tracing India's royal trade highways, medieval fortresses, and architectural marvels. Experience Sanskritic and royal heritage with direct guiding by Svagato.
+                            </p>
+                            <div class="space-y-3 pt-4 border-t border-slate-800 text-xs text-slate-300 mb-8">
+                                <div class="flex flex-col gap-1 pb-1">
+                                    <span class="text-slate-400 uppercase tracking-wider text-[10px]">Stops & Places:</span>
+                                    <span class="text-white font-medium text-sm font-serif">Delhi • Agra • Jaipur • Udaipur • Ahmedabad • Mumbai</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-slate-400">Lodging Style:</span>
+                                    <span class="text-white font-medium">Bespoke Havelis & Mewar Palaces</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-slate-400">Pacing:</span>
+                                    <span class="text-white font-medium">Active, Rich Cultural Focus</span>
+                                </div>
+                            </div>
                         </div>
-                        <a href="tours/delhi-mumbai-10-days.html" class="bg-slate-800 hover:bg-sage-600 text-white px-6 py-3 rounded-full text-xs font-semibold uppercase tracking-wider transition-all border border-slate-700 hover:border-sage-500 flex items-center gap-2">
-                            <span>Read Program</span>
-                            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-                        </a>
+                        <div class="flex items-center justify-between pt-6 border-t border-slate-800">
+                            <div>
+                                <span class="text-3xl font-serif text-white font-semibold price-val" data-usd="4,800" data-eur="4,450">$4,800</span>
+                                <span class="text-[11px] text-slate-400 block">/ per guest</span>
+                            </div>
+                            <a href="tours/delhi-mumbai-10-days.html" class="bg-slate-800 hover:bg-sage-600 text-white px-6 py-3 rounded-full text-xs font-semibold uppercase tracking-wider transition-all border border-slate-700 hover:border-sage-500 flex items-center gap-2">
+                                <span>Read Program</span>
+                                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Tour 2 Card -->
-                <div class="glass-panel rounded-3xl p-8 border border-slate-700/60 flex flex-col justify-between glass-panel-hover">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <span class="px-3 py-1 rounded-full text-[10px] font-semibold uppercase tracking-widest bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Ready-Made Odyssey</span>
-                            <span class="text-xs text-slate-400 font-mono">14 Days / 13 Nights</span>
-                        </div>
-                        <h3 class="font-serif text-2xl text-white mb-3">The Great Indian Dialectic: Mountain, Cave, Temple & Cosmos</h3>
-                        <p class="text-slate-300 text-sm font-light mb-6">
-                            A trans-continental spiritual traverse of India, tracing Himalayan Buddhist semantics, southern Advaita Vedanta silence, and central Indian Tantric architecture.
-                        </p>
-                        <div class="space-y-3 pt-4 border-t border-slate-800 text-xs text-slate-300 mb-8">
-                            <div class="flex flex-col gap-1 pb-1">
-                                <span class="text-slate-400 uppercase tracking-wider text-[10px]">Stops & Places:</span>
-                                <span class="text-white font-medium text-sm font-serif">Mumbai • Dharamshala • Tiruvannamalai • Khajuraho</span>
-                            </div>
-                            <div class="flex items-center justify-between">
-                                <span class="text-slate-400">Lodging Style:</span>
-                                <span class="text-white font-medium">Himalayan Resorts & Forest Ashrams</span>
-                            </div>
-                            <div class="flex items-center justify-between">
-                                <span class="text-slate-400">Logistics:</span>
-                                <span class="text-white font-medium">All Internal Flights Included</span>
-                            </div>
+                <div class="glass-panel rounded-3xl border border-slate-700/60 flex flex-col justify-between glass-panel-hover overflow-hidden">
+                    <!-- Photo banner -->
+                    <div class="relative h-52 overflow-hidden">
+                        <img src="assets/images/tour-cross-india.jpg" alt="Khajuraho temple silhouette at sunset — Cross-India Dialectic" class="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-slate-900/20 to-slate-900/90"></div>
+                        <div class="absolute bottom-4 left-5 flex items-center gap-2">
+                            <span class="px-3 py-1 rounded-full text-[10px] font-semibold uppercase tracking-widest bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 backdrop-blur-sm">Ready-Made Odyssey</span>
+                            <span class="text-xs text-slate-300 font-mono backdrop-blur-sm bg-slate-900/50 px-2 py-0.5 rounded-full">14 Days / 13 Nights</span>
                         </div>
                     </div>
-                    <div class="flex items-center justify-between pt-6 border-t border-slate-800">
+                    <!-- Card content -->
+                    <div class="p-8 flex flex-col flex-1 justify-between">
                         <div>
-                            <span class="text-3xl font-serif text-white font-semibold price-val" data-usd="8,900" data-eur="8,250">$8,900</span>
-                            <span class="text-[11px] text-slate-400 block">/ per guest</span>
+                            <h3 class="font-serif text-2xl text-white mb-3">The Great Indian Dialectic: Mountain, Cave, Temple & Cosmos</h3>
+                            <p class="text-slate-300 text-sm font-light mb-6">
+                                A trans-continental spiritual traverse of India, tracing Himalayan Buddhist semantics, southern Advaita Vedanta silence, and central Indian Tantric architecture.
+                            </p>
+                            <div class="space-y-3 pt-4 border-t border-slate-800 text-xs text-slate-300 mb-8">
+                                <div class="flex flex-col gap-1 pb-1">
+                                    <span class="text-slate-400 uppercase tracking-wider text-[10px]">Stops & Places:</span>
+                                    <span class="text-white font-medium text-sm font-serif">Mumbai • Dharamshala • Tiruvannamalai • Khajuraho</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-slate-400">Lodging Style:</span>
+                                    <span class="text-white font-medium">Himalayan Resorts & Forest Ashrams</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-slate-400">Logistics:</span>
+                                    <span class="text-white font-medium">All Internal Flights Included</span>
+                                </div>
+                            </div>
                         </div>
-                        <a href="tours/mumbai-dharamsala-tiruvannamalai-khajuraho.html" class="bg-slate-800 hover:bg-sage-600 text-white px-6 py-3 rounded-full text-xs font-semibold uppercase tracking-wider transition-all border border-slate-700 hover:border-sage-500 flex items-center gap-2">
-                            <span>Read Program</span>
-                            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-                        </a>
+                        <div class="flex items-center justify-between pt-6 border-t border-slate-800">
+                            <div>
+                                <span class="text-3xl font-serif text-white font-semibold price-val" data-usd="8,900" data-eur="8,250">$8,900</span>
+                                <span class="text-[11px] text-slate-400 block">/ per guest</span>
+                            </div>
+                            <a href="tours/mumbai-dharamsala-tiruvannamalai-khajuraho.html" class="bg-slate-800 hover:bg-sage-600 text-white px-6 py-3 rounded-full text-xs font-semibold uppercase tracking-wider transition-all border border-slate-700 hover:border-sage-500 flex items-center gap-2">
+                                <span>Read Program</span>
+                                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
