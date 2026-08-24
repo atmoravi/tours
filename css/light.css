@@ -1,0 +1,33 @@
+/* Skin: Light & Airy */
+:root {
+  --bg-primary: #F9F7F2;
+  --bg-secondary: #EFE8E0;
+  --bg-tertiary: #E5DDCE;
+  --bg-quaternary: #FBF9F6;
+
+  --text-primary: #1A202C;
+  --text-secondary: #2D3748;
+  --text-tertiary: #4A5568;
+  --text-muted: #718096;
+
+  --accent-primary: #00A896;
+  --accent-secondary: #2D9B8F;
+  --accent-tertiary: #E8B4A8;
+  --accent-light: #C0E9E4;
+  --accent-glow: rgba(0, 168, 150, 0.1);
+
+  --emerald-primary: #00A896;
+  --emerald-secondary: #008B7F;
+
+  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-bg-hover: rgba(255, 255, 255, 0.95);
+  --glass-border: rgba(0, 168, 150, 0.15);
+  --glass-border-accent: rgba(0, 168, 150, 0.25);
+
+  --border-primary: #D4CCBE;
+  --border-secondary: #E5DDCE;
+  --border-accent: rgba(0, 168, 150, 0.25);
+
+  --pattern-opacity: 0;
+  --pattern-url: none;
+}
