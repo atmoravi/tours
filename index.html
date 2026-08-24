@@ -251,42 +251,43 @@
         <div class="max-w-6xl mx-auto px-6">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <!-- Visual Frame & Profile Card -->
-                <div class="lg:col-span-5 relative">
+                <div class="lg:col-span-5 relative group">
                     <div
-                        class="aspect-[4/5] rounded-3xl overflow-hidden glass-panel p-4 border border-slate-700/60 shadow-2xl relative">
+                        class="aspect-[4/5] rounded-3xl overflow-hidden glass-panel p-3 sm:p-4 border border-slate-700/60 shadow-2xl relative">
                         <div
-                            class="w-full h-full rounded-2xl bg-slate-950 relative overflow-hidden flex flex-col justify-between p-8 border border-slate-800">
+                            class="w-full h-full rounded-2xl bg-slate-950 relative overflow-hidden flex flex-col justify-between p-6 sm:p-8 border border-slate-800">
+                            <!-- Host Portrait Photo -->
+                            <img src="assets/images/host.jpg" alt="Svagato - Cultural Host"
+                                class="absolute inset-0 w-full h-full object-cover object-top filter brightness-95 group-hover:scale-105 transition-transform duration-700 ease-out" />
                             <div
-                                class="absolute inset-0 bg-[radial-gradient(#10B981_1px,transparent_1px)] [background-size:20px_20px] opacity-20">
+                                class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/70 to-slate-950/20">
                             </div>
 
                             <div class="relative z-10 flex justify-between items-start">
                                 <span
-                                    class="px-3 py-1 rounded-full text-[10px] font-mono uppercase tracking-widest bg-sage-500/10 text-sage-light border border-sage-500/20">Lead
+                                    class="px-3 py-1 rounded-full text-[10px] font-mono uppercase tracking-widest bg-slate-900/80 backdrop-blur-md text-sage-light border border-sage-500/30 shadow-md">Lead
                                     Guide</span>
-                                <i data-lucide="sparkle" class="w-5 h-5 text-sage-400"></i>
+                                <div class="w-8 h-8 rounded-full bg-slate-900/80 backdrop-blur-md border border-slate-700/60 flex items-center justify-center text-sage-400">
+                                    <i data-lucide="sparkle" class="w-4 h-4"></i>
+                                </div>
                             </div>
 
-                            <div class="relative z-10 text-center py-6">
-                                <div
-                                    class="w-20 h-20 mx-auto rounded-full bg-slate-850 border-2 border-sage-500/40 flex items-center justify-center mb-4 shadow-xl">
-                                    <i data-lucide="user-check" class="w-10 h-10 text-sage-400"></i>
-                                </div>
-                                <h3 class="font-serif text-3xl text-white font-medium">Svagato</h3>
-                                <p class="text-xs text-sage-400 font-medium uppercase tracking-widest mt-1">Author &
+                            <div class="relative z-10 text-center pt-20 pb-2">
+                                <h3 class="font-serif text-3xl text-white font-medium drop-shadow-md">Svagato</h3>
+                                <p class="text-xs text-sage-300 font-medium uppercase tracking-widest mt-1 drop-shadow">Author &
                                     Language Scientist</p>
-                                <div class="mt-4 flex justify-center gap-2">
+                                <div class="mt-4 flex flex-wrap justify-center gap-2">
                                     <span
-                                        class="text-[10px] bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full border border-slate-700">Sanskrit
+                                        class="text-[10px] bg-slate-900/80 backdrop-blur-md text-slate-200 px-2.5 py-1 rounded-full border border-slate-700 shadow">Sanskrit
                                         Decoder</span>
                                     <span
-                                        class="text-[10px] bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full border border-slate-700">Pilgrimage
+                                        class="text-[10px] bg-slate-900/80 backdrop-blur-md text-slate-200 px-2.5 py-1 rounded-full border border-slate-700 shadow">Pilgrimage
                                         Historian</span>
                                 </div>
                             </div>
 
                             <div
-                                class="relative z-10 pt-4 border-t border-slate-800 text-center text-xs text-slate-400 italic">
+                                class="relative z-10 pt-4 border-t border-slate-700/60 text-center text-xs text-slate-300 italic backdrop-blur-xs">
                                 "Travel is not geography; it is the recalibration of human perception."
                             </div>
                         </div>
