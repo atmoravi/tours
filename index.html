@@ -97,6 +97,26 @@
             background: #334155;
             border-radius: 3px;
         }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease-in-out;
+        }
+
+        .faq-answer.active {
+            max-height: 500px;
+            opacity: 1;
+        }
+
+        .faq-icon {
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .faq-icon.rotated {
+            transform: rotate(180deg);
+        }
     </style>
 </head>
 
@@ -896,10 +916,10 @@
                         class="w-full text-left p-6 flex items-center justify-between text-white font-serif text-lg font-medium hover:text-sage-light transition-colors">
                         <span>Do I need prior knowledge of Sanskrit or Indian history?</span>
                         <i id="faq-icon-1" data-lucide="chevron-down"
-                            class="w-5 h-5 text-sage-400 transition-transform"></i>
+                            class="w-5 h-5 text-sage-400 faq-icon"></i>
                     </button>
                     <div id="faq-answer-1"
-                        class="hidden px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-slate-800/60 pt-4">
+                        class="faq-answer px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-slate-800/60 pt-4">
                         Not at all. Svagato introduces all linguistic and philosophical concepts in clear, intuitive
                         terms designed for curious minds. The goal is to illuminate context, not overwhelm with
                         technical jargon.
@@ -911,10 +931,10 @@
                         class="w-full text-left p-6 flex items-center justify-between text-white font-serif text-lg font-medium hover:text-sage-light transition-colors">
                         <span>How does the Bishkek consultation call work?</span>
                         <i id="faq-icon-2" data-lucide="chevron-down"
-                            class="w-5 h-5 text-slate-400 transition-transform"></i>
+                            class="w-5 h-5 text-slate-400 faq-icon"></i>
                     </button>
                     <div id="faq-answer-2"
-                        class="hidden px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-slate-800/60 pt-4">
+                        class="faq-answer px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-slate-800/60 pt-4">
                         Once you request a call slot via our online form, our Bishkek advisory team confirms your
                         scheduled 20-minute window (between 09:00 and 18:00 Bishkek time). We connect via WhatsApp,
                         Telegram, or direct phone call.
@@ -926,10 +946,10 @@
                         class="w-full text-left p-6 flex items-center justify-between text-white font-serif text-lg font-medium hover:text-sage-light transition-colors">
                         <span>What is included in the tour tuition?</span>
                         <i id="faq-icon-3" data-lucide="chevron-down"
-                            class="w-5 h-5 text-slate-400 transition-transform"></i>
+                            class="w-5 h-5 text-slate-400 faq-icon"></i>
                     </button>
                     <div id="faq-answer-3"
-                        class="hidden px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-slate-800/60 pt-4">
+                        class="faq-answer px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-slate-800/60 pt-4">
                         All luxury heritage accommodations, private ground transportation, internal domestic flights
                         (for 2-week journeys), private sanctuary entry fees, curated organic meals, and daily briefings
                         with Svagato are fully included.
@@ -1115,13 +1135,8 @@
             const answer = document.getElementById(`faq-answer-${num}`);
             const icon = document.getElementById(`faq-icon-${num}`);
 
-            if (answer.classList.contains('hidden')) {
-                answer.classList.remove('hidden');
-                icon.classList.add('rotate-180');
-            } else {
-                answer.classList.add('hidden');
-                icon.classList.remove('rotate-180');
-            }
+            answer.classList.toggle('active');
+            icon.classList.toggle('rotated');
         }
     </script>
 </body>
