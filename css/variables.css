@@ -1,0 +1,35 @@
+/* Base Colors */
+:root {
+  --bg-primary: #0F172A;
+  --bg-secondary: #1E293B;
+  --bg-tertiary: #141E33;
+  --bg-quaternary: #070A12;
+
+  --text-primary: #F1F5F9;
+  --text-secondary: #CBD5E1;
+  --text-tertiary: #94A3B8;
+  --text-muted: #64748B;
+
+  --accent-primary: #10B981;
+  --accent-secondary: #059669;
+  --accent-tertiary: #047857;
+  --accent-light: #A7F3D0;
+  --accent-glow: rgba(16, 185, 129, 0.15);
+
+  --emerald-primary: #10B981;
+  --emerald-secondary: #059669;
+
+  /* Glass & Borders */
+  --glass-bg: rgba(30, 41, 59, 0.65);
+  --glass-bg-hover: rgba(30, 41, 59, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-accent: rgba(16, 185, 129, 0.3);
+
+  --border-primary: #334155;
+  --border-secondary: #1E293B;
+  --border-accent: rgba(16, 185, 129, 0.3);
+
+  /* Patterns & Textures */
+  --pattern-opacity: 0.2;
+  --pattern-url: none;
+}

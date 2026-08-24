@@ -51,22 +51,22 @@
     </script>
     <style>
         .gradient-fade-down {
-            background: linear-gradient(180deg, #0F172A 0%, #1E293B 100%);
+            background: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
         }
 
         .gradient-fade-up {
-            background: linear-gradient(180deg, #1E293B 0%, #0F172A 100%);
+            background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
         }
 
         .gradient-glow {
-            background: radial-gradient(circle at 50% 25%, rgba(16, 185, 129, 0.15) 0%, rgba(15, 23, 42, 0) 70%);
+            background: radial-gradient(circle at 50% 25%, var(--accent-glow) 0%, transparent 70%);
         }
 
         .glass-panel {
-            background: rgba(30, 41, 59, 0.65);
+            background: var(--glass-bg);
             backdrop-filter: blur(16px);
             -webkit-backdrop-filter: blur(16px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
+            border: 1px solid var(--glass-border);
         }
 
         .glass-panel-hover {
@@ -74,13 +74,13 @@
         }
 
         .glass-panel-hover:hover {
-            background: rgba(30, 41, 59, 0.85);
-            border-color: rgba(16, 185, 129, 0.3);
+            background: var(--glass-bg-hover);
+            border-color: var(--glass-border-accent);
             transform: translateY(-2px);
         }
 
         .text-gradient {
-            background: linear-gradient(135deg, #FFFFFF 0%, #CBD5E1 45%, #A7F3D0 100%);
+            background: linear-gradient(135deg, #FFFFFF 0%, var(--text-secondary) 45%, var(--accent-light) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -90,11 +90,11 @@
         }
 
         .custom-scrollbar::-webkit-scrollbar-track {
-            background: #0F172A;
+            background: var(--bg-primary);
         }
 
         .custom-scrollbar::-webkit-scrollbar-thumb {
-            background: #334155;
+            background: var(--border-primary);
             border-radius: 3px;
         }
 
@@ -118,6 +118,8 @@
             transform: rotate(180deg);
         }
     </style>
+    <link rel="stylesheet" href="css/variables.css">
+    <link id="theme-skin" rel="stylesheet" href="">
 </head>
 
 <body
