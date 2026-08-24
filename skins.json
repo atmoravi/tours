@@ -1,0 +1,21 @@
+{
+  "active": "current",
+  "available": ["current", "indian", "light"],
+  "skins": {
+    "current": {
+      "name": "Sage Green Dark",
+      "description": "Premium, minimalist, sophisticated",
+      "file": "css/current.css"
+    },
+    "indian": {
+      "name": "Indian Heritage",
+      "description": "Jewel tones, cultural patterns, warm aesthetic",
+      "file": "css/indian.css"
+    },
+    "light": {
+      "name": "Light & Airy",
+      "description": "Bright, accessible, clean modern feel",
+      "file": "css/light.css"
+    }
+  }
+}
