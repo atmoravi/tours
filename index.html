@@ -1187,6 +1187,25 @@
         // Initialize Lucide Icons
         lucide.createIcons();
 
+        // Load active skin from skins.json
+        async function loadActiveSkin() {
+            try {
+                const response = await fetch('skins.json');
+                const config = await response.json();
+                const activeSkin = config.active;
+                const skinFile = config.skins[activeSkin].file;
+                document.getElementById('theme-skin').href = skinFile;
+                document.body.classList.add(`skin-${activeSkin}`);
+            } catch (error) {
+                console.error('Failed to load skin:', error);
+                // Fallback to current skin
+                document.getElementById('theme-skin').href = 'css/current.css';
+            }
+        }
+
+        // Load skin on page load
+        loadActiveSkin();
+
         function toggleMobileMenu() {
             const menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
