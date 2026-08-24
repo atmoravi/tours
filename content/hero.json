@@ -1,0 +1,31 @@
+{
+  "badge": "Elevated & Exotic Encounters",
+  "headline": "We show the India you never dreamed about.",
+  "subheading": "Step beyond conventional tourism into an immersive narrative of ancient wisdom, language science, and spiritual transcendence curated by author and linguist Svagato.",
+  "cta_primary": {
+    "text": "Explore Bespoke Itineraries",
+    "href": "#tours"
+  },
+  "cta_secondary": {
+    "text": "Consultation from Bishkek Hub",
+    "action": "openBookingModal('Hero Banner Consultation')"
+  },
+  "value_highlights": [
+    {
+      "title": "Deep Context",
+      "description": "Linguistic & Historical Roots"
+    },
+    {
+      "title": "Curated Groups",
+      "description": "Max 8 Guests or Private Couple"
+    },
+    {
+      "title": "Sacred Spaces",
+      "description": "Hidden Sanctuaries & Lineages"
+    },
+    {
+      "title": "Bishkek Hub",
+      "description": "Direct Advisory 09:00–18:00"
+    }
+  ]
+}

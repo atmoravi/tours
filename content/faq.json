@@ -1,0 +1,21 @@
+{
+  "section_label": "Clarity & Details",
+  "headline": "Frequently Asked Questions",
+  "items": [
+    {
+      "id": 1,
+      "question": "Do I need prior knowledge of Sanskrit or Indian history?",
+      "answer": "Not at all. Svagato introduces all linguistic and philosophical concepts in clear, intuitive terms designed for curious minds. The goal is to illuminate context, not overwhelm with technical jargon."
+    },
+    {
+      "id": 2,
+      "question": "How does the Bishkek consultation call work?",
+      "answer": "Once you request a call slot via our online form, our Bishkek advisory team confirms your scheduled 20-minute window (between 09:00 and 18:00 Bishkek time). We connect via WhatsApp, Telegram, or direct phone call."
+    },
+    {
+      "id": 3,
+      "question": "What is included in the tour tuition?",
+      "answer": "All luxury heritage accommodations, private ground transportation, internal domestic flights (for 2-week journeys), private sanctuary entry fees, curated organic meals, and daily briefings with Svagato are fully included."
+    }
+  ]
+}

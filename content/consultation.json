@@ -1,0 +1,30 @@
+{
+  "section_label": "Headquarters & Advisory Desk",
+  "headline": "Bishkek Advisory Operations",
+  "intro": "Our central planning and traveler relations desk is located in Bishkek. Prior to reserving your journey, we host a 20-minute direct call to align your physical comfort, travel dates, and intellectual aspirations.",
+  "details": [
+    {
+      "icon": "clock",
+      "title": "Working Hours",
+      "value": "09:00 – 18:00 (Bishkek Time)",
+      "note": "Monday through Saturday"
+    },
+    {
+      "icon": "phone-call",
+      "title": "Direct Voice Advisory",
+      "value": "Bishkek Desk Line",
+      "note": "Scheduled via slot request form"
+    }
+  ],
+  "cta": {
+    "text": "Request Bishkek Call Slot",
+    "action": "openBookingModal('Bishkek Operations Desk')"
+  },
+  "status_panel": {
+    "title": "Call Desk Status",
+    "description": "Svagato or a senior cultural specialist is available during Bishkek office hours to answer your questions.",
+    "hours": "09:00 - 18:00",
+    "status": "Desk Open",
+    "note": "Pre-registration required for all voice calls."
+  }
+}

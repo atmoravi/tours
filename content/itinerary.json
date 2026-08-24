@@ -1,0 +1,43 @@
+{
+  "section_label": "Curated Day-by-Day Arc",
+  "headline": "What A Day Looks Like",
+  "intro": "Explore the rhythm of our contextual journeys, balancing deep intellectual study, quiet contemplation, and local culinary traditions.",
+  "phases": [
+    {
+      "id": 1,
+      "number": "01",
+      "tab_title": "Morning: Phonetic Decoding",
+      "time": "08:30 AM - 11:30 AM",
+      "title": "Linguistic & Semantic Morning Salon",
+      "description": "Over organic local tea, Svagato leads an introductory seminar decoding the root meanings of the region's ancient inscriptions. Rather than memorizing dates, you learn how language shapes human perception and spiritual worldview.",
+      "meta": [
+        "Small-Group Dialogue",
+        "Heritage Estate Garden"
+      ]
+    },
+    {
+      "id": 2,
+      "number": "02",
+      "tab_title": "Midday: Private Temple Entry",
+      "time": "12:30 PM - 04:00 PM",
+      "title": "Unseen Sanctuary & Architectural Analysis",
+      "description": "Private access to non-commercial sacred sites. Observe architectural alignments designed around acoustic resonance and sacred geometry. Svagato points out subtle details that typical guidebooks overlook.",
+      "meta": [
+        "Private Gate Entry",
+        "Sacred Valley Ruins"
+      ]
+    },
+    {
+      "id": 3,
+      "number": "03",
+      "tab_title": "Evening: Sound & Reflection",
+      "time": "06:00 PM - 09:00 PM",
+      "title": "Twilight Chanting & Integration Dinner",
+      "description": "Experience authentic acoustic chanting sessions at sunset, followed by a quiet culinary dinner featuring regional organic cuisine. Conclude the evening with an open Q&A on philosophy and personal insights.",
+      "meta": [
+        "Sunset Chanting",
+        "Curated Organic Feast"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "brand": {
+    "name": "FAB WOW TOURS",
+    "tagline": "Elevated & Exotic Journeys",
+    "logo_letter": "F"
+  },
+  "nav_links": [
+    { "href": "#about", "label": "The Vision" },
+    { "href": "#methodology", "label": "Cultural Context" },
+    { "href": "#tours", "label": "Tour Menu" },
+    { "href": "#itinerary", "label": "Sample Expeditions" },
+    { "href": "#consultation", "label": "Bishkek Hub" }
+  ],
+  "cta_primary": {
+    "text": "Schedule Call",
+    "action": "openBookingModal('General Inquiry')"
+  },
+  "mobile_cta": {
+    "text": "Schedule Call (09:00 - 18:00)",
+    "action": "openBookingModal('Mobile Menu'); toggleMobileMenu();"
+  }
+}

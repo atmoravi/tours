@@ -1,0 +1,112 @@
+{
+  "section_label": "Bespoke Offering Menu",
+  "headline": "Curated Journeys",
+  "currency_default": "USD",
+  "tours": [
+    {
+      "id": "1week-group",
+      "category": "Curated Group",
+      "category_color": "sage",
+      "title": "1-Week Cultural Group Expedition",
+      "duration": "7 Days / 6 Nights",
+      "description": "An intensive, high-yield introduction to India's sacred language geography and hidden heritage sanctuaries alongside like-minded intellectual travelers.",
+      "details": [
+        {
+          "label": "Group Size",
+          "value": "Max 8 Guests"
+        },
+        {
+          "label": "Instruction",
+          "value": "Daily Semantics Briefings"
+        },
+        {
+          "label": "Accommodations",
+          "value": "Bespoke Heritage Estates"
+        }
+      ],
+      "price_usd": "3,400",
+      "price_eur": "3,150",
+      "price_note": "/ per guest",
+      "button_text": "Inquire Now",
+      "button_action": "openBookingModal('1-Week Group Expedition')",
+      "featured": false
+    },
+    {
+      "id": "2week-group",
+      "category": "Curated Group",
+      "category_color": "sage",
+      "title": "2-Week Complete Cultural Odyssey",
+      "duration": "14 Days / 13 Nights",
+      "description": "The definitive deep-dive pilgrimage. Traverse northern mountain sanctuaries and southern temple complexes with comprehensive linguistic lectures.",
+      "details": [
+        {
+          "label": "Group Size",
+          "value": "Max 8 Guests"
+        },
+        {
+          "label": "Access",
+          "value": "Private Sanctuary Entrances"
+        },
+        {
+          "label": "Transfers",
+          "value": "All Internal Flights & Logistics"
+        }
+      ],
+      "price_usd": "5,900",
+      "price_eur": "5,450",
+      "price_note": "/ per guest",
+      "button_text": "Inquire Now",
+      "button_action": "openBookingModal('2-Week Complete Odyssey')",
+      "featured": true,
+      "featured_label": "Recommended Immersion"
+    },
+    {
+      "id": "1week-personal",
+      "category": "Personal Private",
+      "category_color": "emerald",
+      "title": "1-Week Bespoke Personal Tour",
+      "duration": "7 Days / Flexible",
+      "description": "Exclusive 1-on-1 or private couple accompaniment with Svagato. Itinerary sculpted specifically around your intellectual, research, or personal interests.",
+      "details": [
+        {
+          "label": "Exclusivity",
+          "value": "100% Private to You"
+        },
+        {
+          "label": "Flexibility",
+          "value": "Dynamic Daily Pace"
+        }
+      ],
+      "price_usd": "7,200",
+      "price_eur": "6,650",
+      "price_note": "/ private party",
+      "button_text": "Request Private Dates",
+      "button_action": "openBookingModal('1-Week Bespoke Personal Tour')",
+      "featured": false
+    },
+    {
+      "id": "2week-personal",
+      "category": "Personal Private",
+      "category_color": "emerald",
+      "title": "2-Week Master Personal Journey",
+      "duration": "14 Days / Ultimate",
+      "description": "The ultimate private journey across India's most extraordinary hidden spiritual centers, accompanied by private scholars and personalized teachings.",
+      "details": [
+        {
+          "label": "Exclusivity",
+          "value": "100% Private Party"
+        },
+        {
+          "label": "VVIP Access",
+          "value": "Private Lineage Elders & Temples"
+        }
+      ],
+      "price_usd": "12,800",
+      "price_eur": "11,800",
+      "price_note": "/ private party",
+      "button_text": "Request Private Dates",
+      "button_action": "openBookingModal('2-Week Master Personal Journey')",
+      "featured": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "section_label": "Our Signature Treatment Method",
+  "headline": "Contextual Cultural Immersion",
+  "intro": "Our methodology replaces superficial sightseeing with an intellectually rich, emotionally resonant, and spiritually grounding journey of discovery.",
+  "benefits": [
+    {
+      "number": "01",
+      "icon": "globe-2",
+      "title": "Widest Cultural Context",
+      "description": "Instead of viewing monuments as isolated tourist stops, every sanctuary, valley, and ritual is framed within its multi-millennial historical, sociological, and linguistic origins. You gain a coherent understanding of India's living heritage.",
+      "details": [
+        "Decoding architectural geometry through ancient Sanskrit texts",
+        "Contextualizing regional rituals with Vedic & Tantric lineages"
+      ]
+    },
+    {
+      "number": "02",
+      "icon": "sparkles",
+      "title": "Spiritual Meaning & Awakening",
+      "description": "Transcend commercialized spiritual tourism. Engage in genuine dialogues with lineage guardians, experience quiet evening sound meditations, and take time for personal integration tailored for modern intellectual seekers.",
+      "details": [
+        "Private dialogues with traditional scholars and ashram elders",
+        "Guided contemplative reflections & quiet integration hours"
+      ]
+    }
+  ]
+}
